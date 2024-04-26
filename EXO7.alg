@@ -20,7 +20,7 @@
         <item algoitem="POUR i ALLANT_DE 0 A nbr_apprenant-1" code="12#i#0#nbr_apprenant-1">
             <item algoitem="DEBUT_POUR" code="13#debutpour"/>
             <item algoitem="LIRE tab[i]" code="2#tab#i"/>
-            <item algoitem="SI (i==0) ALORS" code="6#i==0">
+            <item algoitem="SI (i!=0) ALORS" code="6#i!=0">
                 <item algoitem="DEBUT_SI" code="7#debutsi"/>
                 <item algoitem="premiere_valeur PREND_LA_VALEUR tab[i]" code="5#premiere_valeur#tab[i]#pasliste"/>
                 <item algoitem="FIN_SI" code="8#finsi"/>
